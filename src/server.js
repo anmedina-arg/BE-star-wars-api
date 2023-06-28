@@ -8,4 +8,4 @@ server.use(morgan("dev"));
 
 server.use(require("./routes"));
 
-module.export = server;
+module.exports = server;
